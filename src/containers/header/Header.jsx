@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import people from '../../assets/people.png';
 import './header.css';
-// import video from '../../assets/video.mp4';
-// import takeoff from '../../assets/takeoff.jpeg';
+import video from '../../assets/video.mp4';
+import takeoff from '../../assets/takeoff.png';
 
 const Header = () => {
   const [email, setEmail] = useState('');
@@ -46,10 +46,10 @@ const Header = () => {
       </div>
 
       <div className="header-image">
-        {/* <div className="videoDiv">
+        <div className="videoDiv">
           <video src={video} autoPlay loop muted className="video" />
           <img src={takeoff} className="plane" />
-        </div> */}
+        </div>
       </div>
     </div>
   );

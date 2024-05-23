@@ -21,14 +21,12 @@ const customStyles = {
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
-
-  const [showSignInModal, setShowSignInModal] = useState(false);
-  const [showSignUpModal, setShowSignUpModal] = useState(false);
+  const [modalType, setModalType] = useState('');
   const [user, setUser] = useState(null);
 
   const handleSignIn = (userData) => {
     setUser(userData);
-    setShowSignInModal(false);
+    setModalType('SIGN_IN');
   };
 
   const handleSignOut = () => {
@@ -51,31 +49,18 @@ const Navbar = () => {
       </div>
       <div className="gpt3__navbar-sign">
 
-        <button type="button" onClick={() => setShowSignInModal(true)}>Sign In</button>
-        <button type="button" onClick={() => setShowSignUpModal(true)}>Sign Up</button>
+        <button type="button" onClick={() => setModalType('SIGN_IN')}>Sign In</button>
+        <button type="button" onClick={() => setModalType('SIGN_UP')}>Sign Up</button>
         <Modal
-          isOpen={showSignInModal}
-          onRequestClose={() => setShowSignInModal(false)}
-          contentLabel="Sign In Modal"
-          className="modal-content"
-          overlayClassName="modal-overlay"
+          isOpen={modalType === 'SIGN_IN' || modalType === 'SIGN_UP'}
+          onRequestClose={() => setModalType('')}
+          contentLabel="User Authentication"
           style={customStyles}
 
         >
-          <SignIn onSignIn={handleSignIn} />
-          <button type="button" onClick={() => setShowSignInModal(false)} className="close">Close</button>
-        </Modal>
-        <Modal
-          isOpen={showSignUpModal}
-          onRequestClose={() => setShowSignUpModal(false)}
-          contentLabel="Sign Up Modal"
-          className="modal-content"
-          overlayClassName="modal-overlay"
-          style={customStyles}
-
-        >
-          <SignUp />
-          <button type="button" onClick={() => setShowSignUpModal(false)} className="close">Close</button>
+          {modalType === 'SIGN_IN' && <SignIn onSignIn={handleSignIn} />}
+          {modalType === 'SIGN_UP' && <SignUp />}
+          <button type="button" onClick={() => setModalType('')} className="close">Close</button>
         </Modal>
         {user && (
         <div className="user">
@@ -99,14 +84,14 @@ const Navbar = () => {
             <p><a href="#blog">Contact us</a></p>
           </div>
           <div className="gpt3__navbar-menu_container-links-sign">
-            <button type="button" onClick={() => setShowSignUpModal(true)}>Sign In</button>
+            <button type="button" onClick={() => setModalType('SIGN_IN')}>Sign In</button>
             <button type="button" onClick={handleSignOut}>Sign Up</button>
-            {(showSignUpModal || showSignUpModal) && (
+            {modalType !== '' && (
             <div className="modal">
               <div className="modal-content">
-                <span className="close" onClick={() => { setShowSignUpModal(false); setShowSignUpModal(false); }}>&times;</span>
-                {showSignUpModal && <SignIn onSignIn={handleSignIn} />}
-                {showSignUpModal && <SignUp />}
+                <span className="close" onClick={() => { setModalType(''); }}>&times;</span>
+                {modalType === 'SIGN_IN' && <SignIn onSignIn={handleSignIn} />}
+                {modalType === 'SIGN_UP' && <SignUp />}
               </div>
             </div>
             )}

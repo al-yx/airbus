@@ -105,7 +105,8 @@
 }
 
 .header-image {
-    width:100%;
+    width: max-content;
+    height: max-content;
    margin: 1rem auto 0;
    position: relative;
     justify-content: center;
@@ -116,13 +117,15 @@
         width: 100%;
         .video{
             border-radius: 10rem;
+            width: 800px;
         }
 
     }
     .plane{
         position: absolute;
-        width: 100%;
-        top: -10%
+        width: 800px;
+        height: 550px;
+        right: 0px;
     }
 }
 

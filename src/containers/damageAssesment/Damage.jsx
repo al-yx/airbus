@@ -7,8 +7,8 @@ const Damage = () => (
       <iframe
         src="https://huggingface.co/spaces/bishalrauniyar/Yolov8basedAircraftdamagedetection"
         title="Hugging Face Space"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
+        // allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        // allowFullScreen
       />
     </div>
 
