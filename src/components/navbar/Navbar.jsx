@@ -10,12 +10,15 @@ Modal.setAppElement('#root');
 
 const customStyles = {
   content: {
+    backgroundColor: '#042c54',
     top: '50%',
     left: '50%',
     right: 'auto',
     bottom: 'auto',
     marginRight: '-50%',
     transform: 'translate(-50%, -50%)',
+    borderRadius: '20px',
+
   },
 };
 
@@ -42,8 +45,8 @@ const Navbar = () => {
         <div className="gpt3__navbar-links_container">
           <p><a href="#home">Home</a></p>
           <p><a href="#wgpt3">Features</a></p>
-          <p><a href="#possibility">3D Model</a></p>
-          <p><a href="#features">Image Detection</a></p>
+          <p><a href="#detection">Image Detection</a></p>
+          <p><a href="#features">3D model</a></p>
           <p><a href="#blog">Contact us</a></p>
         </div>
       </div>
@@ -56,11 +59,26 @@ const Navbar = () => {
           onRequestClose={() => setModalType('')}
           contentLabel="User Authentication"
           style={customStyles}
-
         >
           {modalType === 'SIGN_IN' && <SignIn onSignIn={handleSignIn} />}
           {modalType === 'SIGN_UP' && <SignUp />}
-          <button type="button" onClick={() => setModalType('')} className="close">Close</button>
+          <button
+            type="button"
+            onClick={() => setModalType('')}
+            className="close"
+            style={{
+              display: 'block',
+              margin: '10px auto',
+              textAlign: 'center',
+              padding: '10px 20px',
+              backgroundColor: '#f44336',
+              color: 'white',
+              border: 'none',
+              borderRadius: '5px',
+              cursor: 'pointer',
+            }}
+          >Close
+          </button>
         </Modal>
         {user && (
         <div className="user">

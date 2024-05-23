@@ -6,23 +6,25 @@ body {
   }
   
   .contactBody {
-    background-color: #212529; /* Dark background */
-    color: #fff; /* Light text */
+    background-color: var(--color-bg); 
+    width: max-content;
+    color: #fff; 
     padding: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Set minimum viewport height */
+    min-height: 100vh; 
   }
-  
-  /* Contact form section */
-  .contact-form {
+    .contact-form {
+      
     text-align: center;
     width: 80%;
-    max-width: 700px;
-    background-color: #181c1f; /* Slightly darker background for form */
+    background-color: var(--color-blog);
     padding: 30px;
     border-radius: 5px;
+  }
+  .contactForm{
+    display: flex;
   }
   
   .sectionHeader,
@@ -38,10 +40,11 @@ body {
   
   .para {
     font-size: 16px;
+    color: var(    --color-text    );
   }
   
   .sub-heading {
-    font-size: 1.2rem;
+    font-size: 20px;
   }
   
   /* Form styles */
@@ -49,52 +52,38 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding: 2rem;
   }
   
   .inputform {
     padding: 10px 15px;
     margin-bottom: 15px;
-    border: 1px solid #ccc; /* Adjust border color for dark mode */
+    border: 1px solid #ccc;
     border-radius: 3px;
     font-size: 16px;
+    overflow: hidden;
   }
   
-  .inputform:focus {
-    outline: none;
-    border-color: #4CAF50; /* Green highlight on focus */
-  }
-  
-  .input submit {
-    background-color: #4CAF50; /* Green button */
-    color: #fff;
-    padding: 10px 15px;
+  .inputSubmit {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF4820;
     border: none;
-    border-radius: 3px;
-    cursor: pointer;
+    border-radius: 5px;
+    color: white;
     font-size: 16px;
-    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin-top: 10px;
   }
   
   .input submit:hover {
-    background-color: #3e8e41; /* Darker green on hover */
+    background-color: red;
   }
   
   /* Map container */
   .map-container {
-    display: flex;
     margin-top: 30px;
   }
-  
-  .mapBg {
-    width: 50%;
-    background-color: #292d31; /* Dark background for map area */
-  }
-  
-  .map {
-    width: 50%;
-    overflow: hidden;
-  }
-  
   .map iframe {
     width: 100%;
     height: 300px;
@@ -108,24 +97,25 @@ body {
   }
   
   .method {
+    flex:1;
     display: flex;
-    align-items: center;
-    color: #bbb; /* Lighter text for details */
+    justify-content: center;
+     color: #bbb; 
+     
   }
   
   .contactIcon {
     font-size: 20px;
     margin-right: 10px;
-    color: #4CAF50; /* Green icon color */
+    color: var(--color-subtext); 
   }
   
   /* Media queries for responsiveness */
   @media (max-width: 768px) {
-    .contact-form,
-    .map-container {
-      flex-direction: column;
+    .contact-form{
+      display: flex;
     }
-  
+    
     .map-container {
       margin-top: 0;
     }

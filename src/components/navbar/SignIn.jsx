@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './SignIn.css';
 
 const SignIn = ({ onSignIn }) => {
   const [email, setEmail] = useState('');
@@ -21,8 +22,8 @@ const SignIn = ({ onSignIn }) => {
   };
 
   return (
-    <div>
-      <h2>Sign In</h2>
+    <div className="sign-in-container">
+      <h2 className="gradient__text">Sign In</h2>
       <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
       <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
       <button

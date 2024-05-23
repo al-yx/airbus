@@ -1,21 +1,20 @@
 import React from 'react';
 import './ContactUs.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const ContactForm = () => (
   <div className="contactBody">
     <section className="contact-form">
-      <h1 className="heading">Get In Touch with us.</h1>
-      <p className="para">Explore Airbus Worldwide Facilities</p>
-
+      <h1 className="gradient__text">Get In Touch with us. Explore Airbus Worldwide Facilities</h1>
       <div className="contactForm">
         <form action="#">
           <h1 className="sub-heading">Join us in our journey</h1>
-          <p className="para para2">Contact us and we will be happy to answer your questions.</p>
+          <p className="para">Contact us and we will be happy to answer your questions.</p>
           <input type="text" className="inputform" placeholder="Name" />
           <input type="text" className="inputform" placeholder="Email" />
           <input type="number" className="inputform" placeholder="Phone number" />
           <textarea className="inputform" cols="30" rows="5" placeholder="Your message" />
-          <input type="submit" className="input submit" value="Send Message" />
+          <input type="submit" className="inputSubmit" value="Send Message" />
         </form>
 
         <div className="map-container">
@@ -28,25 +27,26 @@ const ContactForm = () => (
 
       <div className="contactMethod">
         <div className="method">
-          <i className="fa-solid fa-location-dot contactIcon" />
           <article className="text">
             <h1 className="sub-heading">Location</h1>
+            <i className="fa-solid fa-location-dot contactIcon" />
+
             <p className="para">Airbus Group India Private Limited,5th Floor, West Wing, Worldmark – 1 Aerocity New Delhi – 110037 - India</p>
           </article>
         </div>
 
         <div className="method">
-          <i className="fa-solid fa-envelope contactIcon" />
           <article className="text">
             <h1 className="sub-heading">Email</h1>
+            <i className="fa-solid fa-envelope contactIcon" />
             <p className="para">info@airbus.com.</p>
           </article>
         </div>
 
         <div className="method">
-          <i className="fa-solid fa-phone contactIcon" />
           <article className="text">
             <h1 className="sub-heading">Phone</h1>
+            <i className="fa-solid fa-phone contactIcon" />
             <p className="para">+91 11 45 801 100</p>
           </article>
         </div>

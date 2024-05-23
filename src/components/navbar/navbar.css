@@ -78,8 +78,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    flex-direction: column;
-    
+    flex-direction: column;    
     text-align: end;
     background: var(--color-footer);
     padding: 2rem;
@@ -133,4 +132,8 @@
     .gpt3__navbar-menu_container-links-sign {
         display: block;
     }
+}
+
+.modal-body {
+    background: none;
 }
