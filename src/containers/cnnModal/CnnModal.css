@@ -1,0 +1,20 @@
+.image-container {
+    flex-basis: 48%; /* Adjust the width as needed */
+  }
+  
+  .image-container img {
+    max-width: 100%; /* Ensure images don't exceed their container's width */
+  }
+  
+  .caption {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: white;
+    margin-top: 1.5rem;
+  }
+  .p{
+    color: white;
+  }

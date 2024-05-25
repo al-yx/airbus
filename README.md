@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+## Airbus Aerothon 6.0 (BY TEAM 8848)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a href = "https://github.com/al-yx/airbus">Full Working Video</a>
 
-## Available Scripts
+https://github.com/bishalrauniyar/demo-check/assets/160076333/67681540-b298-4781-a5d1-5507811732d7
 
-In the project directory, you can run:
 
-### `yarn start`
+## Problem Statement -
+ - The Dual Risks of Faulty Wiring and Structural Damage in Aircraft
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Problems Faced -
+ - Aircraft maintenance ensures safety, reliability, and regulatory compliance. Assessing and repairing damage and faulty wiring are essential for flight safety.
+ - Structural damage and faulty wiring can lead to catastrophic failures, in-flight emergencies, or fires, endangering passengers and crew.
+ - Regular inspections and timely repairs are crucial to prevent accidents and maintain public confidence in aviation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Idea Approach -
+ - Trained, tested, built and deployed models using different algorithms to compare and differentiate accuracy and results from training basic CNN model to advanced  deep learning based object detection model.
+ - Utilized generative AI chatbots to provide repair recommendations, conduct damage assessments, and aid in risk mitigation for aircraft, enhancing maintenance efficiency.
+ - Integrated scalable features that enable real-time image/video processing for damage detection through external sources such as IoT-based models.
+ - Implemented CAD 3D projection that visualizes the shortest path to locate damage using Dijkstra’s algorithm, optimizing repair procedures and reducing downtime
 
-### `yarn test`
+# Model Training via Google Collab
+## For Image Detection Analysis-
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+https://github.com/bishalrauniyar/demo-check/assets/160076333/e0780598-4c09-40a6-bd78-2c65556cab25
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## For Video Detection Analysis-
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+https://github.com/bishalrauniyar/demo-check/assets/160076333/6f2dbe66-6dd7-4b69-9d7f-18e858ec7f64
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Damage Detection Features from testing Basic to Advance Deep Learning Model
+-These features are deployed on our website, allowing us to manually check aircraft damage detection using different models for more efficient accuracy and results.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## CNN Based Model Prediction 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+https://github.com/bishalrauniyar/demo-check/assets/160076333/8428509e-c52a-4c91-bbea-c1397f65972c
 
-## Learn More
+## YOLOv8 Based Airplane Image Analysis and Damage Detection Model
+<img width="1440" alt="Screenshot 2024-05-23 at 7 51 59 PM" src="https://github.com/bishalrauniyar/demo-check/assets/160076333/8cb17d91-5fcb-4d1a-a37f-21f39d435058">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## YOLOv8 Based Airplane Motion Video Analysis and Damage Detection Model
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+https://github.com/bishalrauniyar/demo-check/assets/160076333/1d49c88a-7911-4623-b155-558f5dfd0993
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## RealTime Image/Video Damage Processing in Aircraft from External Source
+<img width="1440" alt="Screenshot 2024-05-25 at 5 08 50 AM" src="https://github.com/bishalrauniyar/demo-check/assets/160076333/2728740e-6c2f-4424-888c-1d7953d59b74">
 
-### Analyzing the Bundle Size
+# CAD 3D Projection for Shortest Path
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+https://github.com/al-yx/airbus/assets/160076333/ff1963b7-bd39-4217-8ccd-cda5b4e570d0
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  -------------------------------------
+  ## Contributing
+  - We're are open to enhancements & bug-fixes.
+  - Feel free to add issues and submit patches.
+  ## Authors and Roles
+  - Bishal Kumar Rauniyar(Lead) - https://github.com/bishalrauniyar
+  - Rishabh Sharma - https://github.com/redhairrs
+  - Paras Jain - https://github.com/SeineAle/shortest-path
+  - Shruti Kumari - https://github.com/al-yx
+    <img width="1440" alt="Screenshot 2024-05-25 at 5 17 13 AM" src="https://github.com/bishalrauniyar/demo-check/assets/160076333/99aac337-0e70-476a-9547-6a8521cccd25">

@@ -1,0 +1,38 @@
+.embed-container {
+    display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto; 
+  position: relative;
+  overflow: hidden;
+  gap: 2rem;
+  padding: 5%;
+  }
+  .damageHeader h1 {
+    font-size: 62px;
+    line-height: 75px;
+    font-family: var(--font-family);
+    font-weight: 800;
+    padding-left: 8%;
+}
+
+  .image-container {
+    flex-basis: 48%; /* Adjust the width as needed */
+  }
+  
+  .image-container img {
+    max-width: 100%; /* Ensure images don't exceed their container's width */
+  }
+  
+  .caption {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: white;
+    margin-top: 1.5rem;
+  }
+  .p{
+    color: white;
+  }
