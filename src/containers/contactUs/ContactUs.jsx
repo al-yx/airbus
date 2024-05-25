@@ -1,6 +1,6 @@
 import React from 'react';
 import './ContactUs.css';
-import '@fortawesome/fontawesome-free/css/all.min.css';
+// import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const ContactForm = () => (
   <div className="contactBody" id="contact-us">
