@@ -1,6 +1,6 @@
 ## Airbus Aerothon 6.0 (BY TEAM 8848)
 
-<a href = "https://github.com/al-yx/airbus">Full Working Video</a>
+<a href ="https://airbus-hackathon6.netlify.app/">DEPLOYED-LINK</a>
 
 https://github.com/bishalrauniyar/demo-check/assets/160076333/67681540-b298-4781-a5d1-5507811732d7
 
