@@ -80,10 +80,10 @@ Presentation: https://www.canva.com/design/DAGGIBkWwpo/YTBu68szV_E5uHodne5BLQ/vi
 🔗Github: https://github.com/bishalrauniyar/Aerothon6.0-Feature3-Realtime-Image-Video-Processing-</br>
 ✨Deploy: https://huggingface.co/spaces/Team8848/Real-Time-ImageVideoProcessing-Damage-Detection-Model</br>
 
-#3D CAD models 
-Shortest path algorithm and Structural Stress point analysis</br>
-GitHub: https://github.com/SeineAle/shortest-path , https://github.com/SeineAle/CAD-models-for-Aerothon </br>
-Deploy: https://shortest-path-airplane.netlify.app , https://airplane-stresspoint-analysis.netlify.app/
+5. 3D CAD models </br>
+  Shortest path algorithm and Structural Stress point analysis</br>
+🔗GitHub: https://github.com/SeineAle/shortest-path , https://github.com/SeineAle/CAD-models-for-Aerothon </br>
+✨Deploy: https://shortest-path-airplane.netlify.app , https://airplane-stresspoint-analysis.netlify.app/
 
 
 
