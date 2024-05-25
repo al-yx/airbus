@@ -53,36 +53,36 @@ https://github.com/bishalrauniyar/demo-check/assets/160076333/1d49c88a-7911-4623
 # CAD 3D Projection for Shortest Path
 
 
-https://github.com/al-yx/airbus/assets/160076333/ff1963b7-bd39-4217-8ccd-cda5b4e570d0
+https://github.com/al-yx/airbus/assets/160076333/ff1963b7-bd39-4217-8ccd-cda5b4e570d0</br>
 
-#Deployed Link and Github repo
-Presentation: https://www.canva.com/design/DAGGIBkWwpo/YTBu68szV_E5uHodne5BLQ/view?utm_content=DAGGIBkWwpo&utm_campaign=designshare&utm_medium=link&utm_source=editor#1
+#Deployed Link and Github repo</br>
+Presentation: https://www.canva.com/design/DAGGIBkWwpo/YTBu68szV_E5uHodne5BLQ/view?utm_content=DAGGIBkWwpo&utm_campaign=designshare&utm_medium=link&utm_source=editor#1</br>
 
-1. CNN Based Airplane Damage Detection Model
-🔗Github Link: https://github.com/bishalrauniyar/Aerothon-6.0-Aircraft-Damage-Detection-
-✨Deployed Link: https://cnnbaseddamagedectionmodel.streamlit.app/
-
-
-
-2. YOLOv8 Based Airplane Image Analysis and Damage Detection Model
-🔗github link: https://github.com/bishalrauniyar/Aerothon6.0-YOLO-based-feature1-ImageAnalysis
-✨Deployed link: https://huggingface.co/spaces/bishalrauniyar/Yolov8based-ImageAircraftdamagedetection
+1. CNN Based Airplane Damage Detection Model</br>
+🔗Github Link: https://github.com/bishalrauniyar/Aerothon-6.0-Aircraft-Damage-Detection-</br>
+✨Deployed Link: https://cnnbaseddamagedectionmodel.streamlit.app/</br>
 
 
 
-3. YOLOv8 Based Airplane Video Analysis and Damage Detection Model
-🔗Github Link: https://github.com/bishalrauniyar/Aerothon6.0-YOLO-based-feature2-VideoAnalysis
-✨Deployed Link: https://huggingface.co/spaces/bishalrauniyar/Yolov8based-VideoMotion-Aircraftdamagedetection
+2. YOLOv8 Based Airplane Image Analysis and Damage Detection Model</br>
+🔗github link: https://github.com/bishalrauniyar/Aerothon6.0-YOLO-based-feature1-ImageAnalysis</br>
+✨Deployed link: https://huggingface.co/spaces/bishalrauniyar/Yolov8based-ImageAircraftdamagedetection</br>
 
 
 
-4. RealTime Image/Video Damage Processing in Aircraft from External Source
-🔗Github: https://github.com/bishalrauniyar/Aerothon6.0-Feature3-Realtime-Image-Video-Processing-
-✨Deploy: https://huggingface.co/spaces/Team8848/Real-Time-ImageVideoProcessing-Damage-Detection-Model
+3. YOLOv8 Based Airplane Video Analysis and Damage Detection Model</br>
+🔗Github Link: https://github.com/bishalrauniyar/Aerothon6.0-YOLO-based-feature2-VideoAnalysis</br>
+✨Deployed Link: https://huggingface.co/spaces/bishalrauniyar/Yolov8based-VideoMotion-Aircraftdamagedetection</br>
+
+
+
+4. RealTime Image/Video Damage Processing in Aircraft from External Source</br>
+🔗Github: https://github.com/bishalrauniyar/Aerothon6.0-Feature3-Realtime-Image-Video-Processing-</br>
+✨Deploy: https://huggingface.co/spaces/Team8848/Real-Time-ImageVideoProcessing-Damage-Detection-Model</br>
 
 #3D CAD models 
-Shortest path algorithm and Structural Stress point analysis
-GitHub: https://github.com/SeineAle/shortest-path , https://github.com/SeineAle/CAD-models-for-Aerothon
+Shortest path algorithm and Structural Stress point analysis</br>
+GitHub: https://github.com/SeineAle/shortest-path , https://github.com/SeineAle/CAD-models-for-Aerothon </br>
 Deploy: https://shortest-path-airplane.netlify.app , https://airplane-stresspoint-analysis.netlify.app/
 
 
